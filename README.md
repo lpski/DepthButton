@@ -23,9 +23,10 @@ A button that transforms depending on the distance you tap from the center
   </li>
   <li> Chageable properties:
     <ul>
-      <li>rotateOnTouch : enables rotate transformation</li>
-      <li>rotateOnTouch : enables rotate transformation</li>
-      <li>rotateOnTouch : enables rotate transformation</li>
+      <li>rotateOnTouch : enables rotate transformation, true by default</li>
+      <li>rotationModifier : changes severity of rotation transform, 45 by default</li>
+      <li>scaleOnTouch : enables scaling of button, true by default</li>
+      <li>scalePercentage : changes scale percentage when scaleOnTouch is enabled, .95 by default</li>
     </ul>
   </li>
 </ul>
