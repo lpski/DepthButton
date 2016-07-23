@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA19A1861D3715A600A70D33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA19A1851D3715A600A70D33 /* AppDelegate.swift */; };
+		CA19A1881D3715A600A70D33 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA19A1871D3715A600A70D33 /* ViewController.swift */; };
+		CA19A18B1D3715A600A70D33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA19A1891D3715A600A70D33 /* Main.storyboard */; };
+		CA19A18D1D3715A600A70D33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA19A18C1D3715A600A70D33 /* Assets.xcassets */; };
+		CA19A1901D3715A600A70D33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA19A18E1D3715A600A70D33 /* LaunchScreen.storyboard */; };
+		CA19A19B1D3715A600A70D33 /* buttonTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA19A19A1D3715A600A70D33 /* buttonTestTests.swift */; };
+		CA19A1A61D3715A600A70D33 /* buttonTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA19A1A51D3715A600A70D33 /* buttonTestUITests.swift */; };
+		CAF27B931D43010000811873 /* DepthButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF27B921D43010000811873 /* DepthButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA19A1971D3715A600A70D33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA19A17A1D3715A600A70D33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA19A1811D3715A600A70D33;
+			remoteInfo = buttonTest;
+		};
+		CA19A1A21D3715A600A70D33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA19A17A1D3715A600A70D33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA19A1811D3715A600A70D33;
+			remoteInfo = buttonTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA19A1821D3715A600A70D33 /* DepthButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DepthButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA19A1851D3715A600A70D33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CA19A1871D3715A600A70D33 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CA19A18A1D3715A600A70D33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA19A18C1D3715A600A70D33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA19A18F1D3715A600A70D33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA19A1911D3715A600A70D33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA19A1961D3715A600A70D33 /* DepthButton.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DepthButton.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA19A19A1D3715A600A70D33 /* buttonTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buttonTestTests.swift; sourceTree = "<group>"; };
+		CA19A19C1D3715A600A70D33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA19A1A11D3715A600A70D33 /* DepthButton.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DepthButton.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA19A1A51D3715A600A70D33 /* buttonTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buttonTestUITests.swift; sourceTree = "<group>"; };
+		CA19A1A71D3715A600A70D33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAF27B921D43010000811873 /* DepthButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepthButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA19A17F1D3715A600A70D33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA19A1931D3715A600A70D33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA19A19E1D3715A600A70D33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA19A1791D3715A600A70D33 = {
+			isa = PBXGroup;
+			children = (
+				CA19A1841D3715A600A70D33 /* buttonTest */,
+				CA19A1991D3715A600A70D33 /* buttonTestTests */,
+				CA19A1A41D3715A600A70D33 /* buttonTestUITests */,
+				CA19A1831D3715A600A70D33 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA19A1831D3715A600A70D33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA19A1821D3715A600A70D33 /* DepthButton.app */,
+				CA19A1961D3715A600A70D33 /* DepthButton.xctest */,
+				CA19A1A11D3715A600A70D33 /* DepthButton.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA19A1841D3715A600A70D33 /* buttonTest */ = {
+			isa = PBXGroup;
+			children = (
+				CA19A1851D3715A600A70D33 /* AppDelegate.swift */,
+				CA19A1871D3715A600A70D33 /* ViewController.swift */,
+				CA19A1891D3715A600A70D33 /* Main.storyboard */,
+				CA19A18C1D3715A600A70D33 /* Assets.xcassets */,
+				CA19A18E1D3715A600A70D33 /* LaunchScreen.storyboard */,
+				CA19A1911D3715A600A70D33 /* Info.plist */,
+				CAF27B921D43010000811873 /* DepthButton.swift */,
+			);
+			path = buttonTest;
+			sourceTree = "<group>";
+		};
+		CA19A1991D3715A600A70D33 /* buttonTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA19A19A1D3715A600A70D33 /* buttonTestTests.swift */,
+				CA19A19C1D3715A600A70D33 /* Info.plist */,
+			);
+			path = buttonTestTests;
+			sourceTree = "<group>";
+		};
+		CA19A1A41D3715A600A70D33 /* buttonTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA19A1A51D3715A600A70D33 /* buttonTestUITests.swift */,
+				CA19A1A71D3715A600A70D33 /* Info.plist */,
+			);
+			path = buttonTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA19A1811D3715A600A70D33 /* DepthButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA19A1AA1D3715A600A70D33 /* Build configuration list for PBXNativeTarget "DepthButton" */;
+			buildPhases = (
+				CA19A17E1D3715A600A70D33 /* Sources */,
+				CA19A17F1D3715A600A70D33 /* Frameworks */,
+				CA19A1801D3715A600A70D33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DepthButton;
+			productName = buttonTest;
+			productReference = CA19A1821D3715A600A70D33 /* DepthButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA19A1951D3715A600A70D33 /* DepthButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA19A1AD1D3715A600A70D33 /* Build configuration list for PBXNativeTarget "DepthButtonTests" */;
+			buildPhases = (
+				CA19A1921D3715A600A70D33 /* Sources */,
+				CA19A1931D3715A600A70D33 /* Frameworks */,
+				CA19A1941D3715A600A70D33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA19A1981D3715A600A70D33 /* PBXTargetDependency */,
+			);
+			name = DepthButtonTests;
+			productName = buttonTestTests;
+			productReference = CA19A1961D3715A600A70D33 /* DepthButton.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA19A1A01D3715A600A70D33 /* DepthButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA19A1B01D3715A600A70D33 /* Build configuration list for PBXNativeTarget "DepthButtonUITests" */;
+			buildPhases = (
+				CA19A19D1D3715A600A70D33 /* Sources */,
+				CA19A19E1D3715A600A70D33 /* Frameworks */,
+				CA19A19F1D3715A600A70D33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA19A1A31D3715A600A70D33 /* PBXTargetDependency */,
+			);
+			name = DepthButtonUITests;
+			productName = buttonTestUITests;
+			productReference = CA19A1A11D3715A600A70D33 /* DepthButton.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA19A17A1D3715A600A70D33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Luke Porupski";
+				TargetAttributes = {
+					CA19A1811D3715A600A70D33 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = BNULBZM8VH;
+					};
+					CA19A1951D3715A600A70D33 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = CA19A1811D3715A600A70D33;
+					};
+					CA19A1A01D3715A600A70D33 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = CA19A1811D3715A600A70D33;
+					};
+				};
+			};
+			buildConfigurationList = CA19A17D1D3715A600A70D33 /* Build configuration list for PBXProject "DepthButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA19A1791D3715A600A70D33;
+			productRefGroup = CA19A1831D3715A600A70D33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA19A1811D3715A600A70D33 /* DepthButton */,
+				CA19A1951D3715A600A70D33 /* DepthButtonTests */,
+				CA19A1A01D3715A600A70D33 /* DepthButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA19A1801D3715A600A70D33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA19A1901D3715A600A70D33 /* LaunchScreen.storyboard in Resources */,
+				CA19A18D1D3715A600A70D33 /* Assets.xcassets in Resources */,
+				CA19A18B1D3715A600A70D33 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA19A1941D3715A600A70D33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA19A19F1D3715A600A70D33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA19A17E1D3715A600A70D33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA19A1881D3715A600A70D33 /* ViewController.swift in Sources */,
+				CA19A1861D3715A600A70D33 /* AppDelegate.swift in Sources */,
+				CAF27B931D43010000811873 /* DepthButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA19A1921D3715A600A70D33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA19A19B1D3715A600A70D33 /* buttonTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA19A19D1D3715A600A70D33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA19A1A61D3715A600A70D33 /* buttonTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA19A1981D3715A600A70D33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA19A1811D3715A600A70D33 /* DepthButton */;
+			targetProxy = CA19A1971D3715A600A70D33 /* PBXContainerItemProxy */;
+		};
+		CA19A1A31D3715A600A70D33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA19A1811D3715A600A70D33 /* DepthButton */;
+			targetProxy = CA19A1A21D3715A600A70D33 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA19A1891D3715A600A70D33 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA19A18A1D3715A600A70D33 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA19A18E1D3715A600A70D33 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA19A18F1D3715A600A70D33 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA19A1A81D3715A600A70D33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA19A1A91D3715A600A70D33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA19A1AB1D3715A600A70D33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = buttonTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = luke.buttonTest;
+				PRODUCT_NAME = DepthButton;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		CA19A1AC1D3715A600A70D33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = buttonTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = luke.buttonTest;
+				PRODUCT_NAME = DepthButton;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		CA19A1AE1D3715A600A70D33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = buttonTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = luke.buttonTestTests;
+				PRODUCT_NAME = DepthButton;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DepthButton.app/DepthButton";
+			};
+			name = Debug;
+		};
+		CA19A1AF1D3715A600A70D33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = buttonTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = luke.buttonTestTests;
+				PRODUCT_NAME = DepthButton;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DepthButton.app/DepthButton";
+			};
+			name = Release;
+		};
+		CA19A1B11D3715A600A70D33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = buttonTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = luke.buttonTestUITests;
+				PRODUCT_NAME = DepthButton;
+				TEST_TARGET_NAME = buttonTest;
+			};
+			name = Debug;
+		};
+		CA19A1B21D3715A600A70D33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = buttonTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = luke.buttonTestUITests;
+				PRODUCT_NAME = DepthButton;
+				TEST_TARGET_NAME = buttonTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA19A17D1D3715A600A70D33 /* Build configuration list for PBXProject "DepthButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA19A1A81D3715A600A70D33 /* Debug */,
+				CA19A1A91D3715A600A70D33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA19A1AA1D3715A600A70D33 /* Build configuration list for PBXNativeTarget "DepthButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA19A1AB1D3715A600A70D33 /* Debug */,
+				CA19A1AC1D3715A600A70D33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA19A1AD1D3715A600A70D33 /* Build configuration list for PBXNativeTarget "DepthButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA19A1AE1D3715A600A70D33 /* Debug */,
+				CA19A1AF1D3715A600A70D33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA19A1B01D3715A600A70D33 /* Build configuration list for PBXNativeTarget "DepthButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA19A1B11D3715A600A70D33 /* Debug */,
+				CA19A1B21D3715A600A70D33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA19A17A1D3715A600A70D33 /* Project object */;
+}
