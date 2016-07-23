@@ -1,6 +1,7 @@
 # DepthButton
 A button that transforms depending on the distance you tap from the center
-<br><br>
+<br>
+## Demo
 ![alt tag](http://i.giphy.com/QrVru4Ae1GjzW.gif)
 <br><br>
 ## Installation
